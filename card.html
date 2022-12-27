@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+<div class="container">
+    <div class="head">
+        <h2>CRUDS</h2>
+        <h3>PRODUCT MANAGMENT SYSTEM</h3>
+    </div>
+    <div class="price">
+        <input type="text" id="title" placeholder="Name of Poduct">
+    </div>
+    <div class="body">
+        <input type="number" onkeyup="get_total()" id="price" placeholder="Price">
+        <input type="number" onkeyup="get_total()" id="fees" placeholder="Fees">
+        <input type="number" onkeyup="get_total()" id="ads" placeholder="ASD">
+        <input type="number" onkeyup="get_total()" id="discount" placeholder="Discount">
+        <button id="total">Total</button>
+        <br>
+        <input type="number" id="count" placeholder="Count">
+        <input type="text" id="category" placeholder="Category">
+        <button id="create">Create</button> 
+        <br>
+        <input type="search" id="search" placeholder="Search" onkeyup="searchPro(this.value)">
+    </div>
+    <div id="search-btn">
+        <button id=" searchTitle">Search By Title</button>
+        <button id="searchCategory">Search By Category</button>
+    </div>
+    <div  id="btn-delAll">
+        <button id="delete" onclick="DellAllPro()" style="display:none" >Delete ALL</button>
+    </div>
+    <div class="output">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Price</th>
+                    <th>Ads</th>
+                    <th>Discount</th>
+                    <th>Category</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
+
+
+
+    <script src="card.js"></script>
+</body>
+</html>

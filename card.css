@@ -1,0 +1,253 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: rgb(27 74 137 / 61%);
+}
+.container .head{
+    width: 100%;
+    text-align: center;
+    color:#fff;
+    margin-top:8px ;
+    margin-bottom: 13px;
+}
+.container .head .h2{
+    font-size: 50px;
+    margin-bottom: 2px;
+}
+.container .head .h3{
+    font-size: 28px;
+}
+#title{
+    width: 100%;
+    padding: 9px 10px;
+    border: none;
+    outline:none;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    background: #000;
+    font-weight:bold ;
+    color:#fff;
+}
+#title:focus{
+    transform: scale(1.02);
+    border-bottom: 2px solid red;
+}
+#price{
+    width: 18%;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    background: rgb(0,0,0);
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    transition: .5s;
+}
+#price:hover{
+    transform: scale((1.05));
+    border-bottom: 2px solid red;
+}
+#fees{
+    width: 20%;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    background: rgb(0,0,0);
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    transition: .5s;
+
+}
+#fees:hover{
+   transform: scale((1.05));  
+      border-bottom: 2px solid red;
+}
+#ads{
+    width: 20%;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    background: rgb(0,0,0);
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    transition: .5s;
+}
+#ads:hover{
+    transform: scale((1.05));
+    border-bottom: 2px solid red;
+}
+#discount{
+    width: 20%;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    background: rgb(0,0,0);
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    transition: .5s;
+}
+#discount:hover{
+    transform: scale((1.05));
+    border-bottom: 2px solid red;
+}
+#count{
+    width: 100%;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    background: rgb(0,0,0);
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    transition: .5s;
+    
+}
+#count:focus{
+    transform: scale(1.02);
+    border-bottom: 2px solid red;
+}
+#category{
+    width: 100%;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    background: rgb(0,0,0);
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    border-radius: 9px;
+      transition: .5s;
+    
+    
+}
+#category:focus{
+    border-bottom: 2px solid red;
+    transform: scale(1.02);
+}
+#create{
+    width: 100%;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    background: rgb(100,15,122);
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    border-radius: 9px;   
+    transition: .5s;
+}
+#create:hover{
+    background-color: rgb(30,10,70);
+    cursor: pointer;
+   
+}
+#search{
+    width: 100%;
+    padding: 9px 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: #000;
+    font-weight: bold;
+    color: #666;
+    transition: .4s;  
+}
+#search:focus{
+    transform: scale(1.02);
+    border-bottom: 2px solid red;
+}
+#search-btn{
+ display: flex;
+ justify-content: space-between;
+}
+#search-btn button{
+    width: 48%;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    background: rgb(17, 15, 136);
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: .5s;
+}
+#search-btn button:hover{
+    background-color: rgb(58, 14, 99);
+    cursor: pointer;
+}
+#delete{
+    width: 100%;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    background: rgb(78, 15, 136);
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: .5s;
+}#delete:hover{
+    background-color: rgb(37, 8, 65);
+    cursor: pointer;
+}#total{
+background-color:red;
+padding: 10px;
+margin-left: 10px;
+border: none;
+outline: none;
+color: #fff;
+font-weight: bold;
+border-radius: 8px;
+}.output table th{
+    color: #fff;
+   
+}table{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin: 10px 0px; 
+}#update{
+    width: 80px;
+    padding: 7px;
+    background-color: rgb(78, 15, 136);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: .5s;
+}#update:hover{
+    background-color: rgb(37, 8, 65);
+    cursor: pointer;
+}#del{
+    width: 80px;
+    padding: 7px;
+    background-color: rgb(78, 15, 136);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: .5s;
+}#del:hover{
+    background-color: rgb(37, 8, 65);
+    cursor: pointer
+}table td,th{
+    padding: 7px;
+}
